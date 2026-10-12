@@ -1,4 +1,4 @@
-// pigLatin.js — yours to write.
+// scripts/pigLatin.js — yours to write.
 //
 // The markers below name requirements from README.md, so the brief, your
 // Issues, the agent and this file all use the same words. Nothing reads them.
@@ -10,7 +10,7 @@
 //   - starts with a vowel: add "way" to the end
 // Print the translated phrase.
 //
-// node pigLatin.js "Pig Latin is hard to speak"
+// node scripts/pigLatin.js "Pig Latin is hard to speak"
 // # Igpay Atinlay isway ardhay otay eakspay
 
 // FR009 — Reject a missing phrase.

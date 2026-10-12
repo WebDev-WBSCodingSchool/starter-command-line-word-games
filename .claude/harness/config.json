@@ -1,21 +1,21 @@
 {
-  "assignment": "004-web-apis — Command Line Word Games",
-
+  "assignment": "004-web-apis \u2014 Command Line Word Games",
   "unlockRoute": true,
   "onboarding": false,
   "planFile": "PLAN.md",
-
   "transcripts": false,
-
   "integrationBranch": "main",
   "branchDiscipline": "warn",
-
-  "gated": ["cliArgs", "randomSelection", "stringManipulation", "controlFlow"],
-
+  "gated": [
+    "cliArgs",
+    "randomSelection",
+    "stringManipulation",
+    "controlFlow"
+  ],
   "syntaxCheck": "node --check",
-
-  "guardedExtensions": [".js"],
-
+  "guardedExtensions": [
+    ".js"
+  ],
   "neverWritable": [
     "PLAN.md",
     ".claude/harness/",
@@ -25,61 +25,85 @@
     ".claude/skills/",
     ".vscode/"
   ],
-
   "writableExceptions": [],
-
-  "canonical": ["README.md", "CLAUDE.md", "AGENTS.md", "GEMINI.md", ".github/copilot-instructions.md"],
-
+  "canonical": [
+    "README.md",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "GEMINI.md",
+    ".github/copilot-instructions.md"
+  ],
   "progressDir": ".claude/harness/progress",
-
   "tasks": [
     {
       "id": "FR005",
       "title": "Rock Paper Scissors game",
-      "file": "rockPaperScissors.js",
-      "categories": ["cliArgs", "randomSelection", "controlFlow"]
+      "file": "scripts/rockPaperScissors.js",
+      "categories": [
+        "cliArgs",
+        "randomSelection",
+        "controlFlow"
+      ]
     },
     {
       "id": "FR006",
       "title": "English to Pig Latin translator",
-      "file": "pigLatin.js",
-      "categories": ["cliArgs", "stringManipulation", "controlFlow"]
+      "file": "scripts/pigLatin.js",
+      "categories": [
+        "cliArgs",
+        "stringManipulation",
+        "controlFlow"
+      ]
     },
     {
       "id": "FR007",
       "title": "Caesar Cipher encryption",
-      "file": "caesarCipher.js",
-      "categories": ["cliArgs", "stringManipulation", "controlFlow"]
+      "file": "scripts/caesarCipher.js",
+      "categories": [
+        "cliArgs",
+        "stringManipulation",
+        "controlFlow"
+      ]
     },
     {
       "id": "FR008",
       "title": "Reject an invalid or missing move",
-      "file": "rockPaperScissors.js",
-      "categories": ["cliArgs"]
+      "file": "scripts/rockPaperScissors.js",
+      "categories": [
+        "cliArgs"
+      ]
     },
     {
       "id": "FR009",
       "title": "Reject a missing phrase",
-      "file": "pigLatin.js",
-      "categories": ["cliArgs"]
+      "file": "scripts/pigLatin.js",
+      "categories": [
+        "cliArgs"
+      ]
     },
     {
       "id": "FR010",
       "title": "Reject a missing or non-numeric shift",
-      "file": "caesarCipher.js",
-      "categories": ["cliArgs"]
+      "file": "scripts/caesarCipher.js",
+      "categories": [
+        "cliArgs"
+      ]
     },
     {
       "id": "FR011",
       "title": "Pass non-letter characters through the cipher unchanged",
-      "file": "caesarCipher.js",
-      "categories": ["stringManipulation"]
+      "file": "scripts/caesarCipher.js",
+      "categories": [
+        "stringManipulation"
+      ]
     },
     {
       "id": "FR012",
       "title": "Pass non-letter characters through the translator unchanged",
-      "file": "pigLatin.js",
-      "categories": ["stringManipulation"]
+      "file": "scripts/pigLatin.js",
+      "categories": [
+        "stringManipulation"
+      ]
     }
   ]
 }

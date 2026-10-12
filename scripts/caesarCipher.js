@@ -1,4 +1,4 @@
-// caesarCipher.js — yours to write.
+// scripts/caesarCipher.js — yours to write.
 //
 // The markers below name requirements from README.md, so the brief, your
 // Issues, the agent and this file all use the same words. Nothing reads them.
@@ -8,7 +8,7 @@
 // that amount, case-insensitively; a positive shift moves right through the
 // alphabet, a negative one moves left. Print the encrypted phrase.
 //
-// node caesarCipher.js "hello world" 3
+// node scripts/caesarCipher.js "hello world" 3
 // # khoor zruog
 
 // FR010 — Reject a missing or non-numeric shift.

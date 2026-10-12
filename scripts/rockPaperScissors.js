@@ -1,4 +1,4 @@
-// rockPaperScissors.js — yours to write.
+// scripts/rockPaperScissors.js — yours to write.
 //
 // The markers below name requirements from README.md, so the brief, your
 // Issues, the agent and this file all use the same words. Nothing reads them.
@@ -8,7 +8,7 @@
 // computer, decide the winner (or a draw) by the rules of the game, and print
 // the result to the console.
 //
-// node rockPaperScissors.js rock
+// node scripts/rockPaperScissors.js rock
 // # You chose rock. Computer chose scissors. You win!
 
 // FR008 — Reject an invalid or missing move.

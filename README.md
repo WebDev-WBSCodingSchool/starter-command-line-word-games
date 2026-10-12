@@ -48,7 +48,8 @@ help you implement them.
 ## The setup
 
 This project is plain Node.js, no npm packages and no `package.json`. Each
-program is one file, run directly with `node <file>.js <args>`. Do not add a
+program is one file in `scripts/`, run directly with `node scripts/<file>.js
+<args>`. Do not add a
 dependency or a `package.json` partway through: there is nothing here that
 needs one, and it is the one thing that would stop this repo from being three
 files anyone can clone and run immediately.
@@ -128,8 +129,9 @@ remember in week three.
 
 ## Before you write code
 
-Three programs, three files, nothing shared between them: `rockPaperScissors.js`,
-`pigLatin.js` and `caesarCipher.js`. Build them in whatever order you like — the
+Three programs, three files, nothing shared between them, all under `scripts/`:
+`scripts/rockPaperScissors.js`, `scripts/pigLatin.js` and `scripts/caesarCipher.js`.
+Build them in whatever order you like — the
 rules above and the Pig Latin/Caesar examples in the project brief are the whole
 spec, so read those twice before typing.
 
