@@ -1,6 +1,6 @@
 # Command Line Word Games — 004 Web APIs
 
-#### Duration: Five days (full time) / ten days (part time)
+#### Duration: One day
 
 #### Presentation: Mandatory, at a time set by your instructor
 
@@ -125,7 +125,7 @@ all of your own work, not only on the tasks marked in bold.
 When the agent wrote or helped write something, the commit carries a
 `Co-Authored-By: Claude …` line instead, which it adds itself. Between the two,
 `git log` shows who wrote what, which is more use to all of you than trying to
-remember in week three.
+remember by the end of the day.
 
 ## Before you write code
 
